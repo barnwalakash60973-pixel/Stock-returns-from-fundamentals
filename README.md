@@ -94,6 +94,7 @@ No single financial metric strongly explains future stock returns. This suggests
 ### Model Insights
 
 Tree-based ensemble models were more effective at capturing complex non-linear relationships between company fundamentals and future stock returns.
+
 ---
 
 ### Prediction Challenges
@@ -108,6 +109,7 @@ Stock returns vary significantly across different time periods, making future re
 ![Feature Importance](Images/features_importance.png)
 
 The most important features were start_year, valuation ratios, profitability metrics, and growth indicators. This suggests that future stock returns depend on both company fundamentals and changing market conditions.
+
 ---
 
 ## Results
@@ -175,6 +177,7 @@ Tree-based ensemble models achieved the best performance, with Random Forest and
 ## Conclusion
 
 This project explored the challenge of predicting one-year stock returns using company fundamentals. While machine learning models were able to capture some predictive patterns, the results highlight the difficulty of forecasting financial markets due to their noisy and non-stationary nature. Tree-based ensemble models delivered the most reliable performance and outperformed deep learning approaches on this structured tabular dataset.
+
 ---
 
 ## Key Learnings
